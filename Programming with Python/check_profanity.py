@@ -4,7 +4,7 @@
 import urllib
 
 def read_text():
-    quotes = open("/Users/pavanboro/workspace/python workspace/movie_quotes.txt")
+    quotes = open("/Users/pavanboro/workspace/Full Stack NanoDegree/Programming with Python/movie_quotes.txt")
     contents_of_file = quotes.read()
     print(contents_of_file)
     quotes.close()
